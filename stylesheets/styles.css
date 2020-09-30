@@ -2,6 +2,7 @@
     background-color: #041421;
     color: #ffffff;
     text-align: center;
+    padding-top: 10px;
 }
 .dropdown-menu{
     border-radius: 0;
@@ -44,7 +45,7 @@
 .emphasized-heading{
     color: #86b9b0;
     font-weight: bold;
-    margin: 0px;
+    margin: 20px;
 }
 img{
     text-align: center;
