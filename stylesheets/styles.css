@@ -35,6 +35,14 @@
         text-align: left;
     }
 }
+.big-img{
+    height: 200px;
+}
+@media screen and (max-width: 48em){
+    .big-img{
+        height: 120px;
+    }
+}
 .info-heading{
     color: #4c7273;
 }
