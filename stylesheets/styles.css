@@ -18,6 +18,13 @@
     background-color: #86b9b0;
     color: #ffffff;
 }
+@media screen and (max-width: 48em){
+    .main{
+        padding: 40px 5%;
+        background-color: #86b9b0;
+        color: #ffffff;
+    }
+}
 .heading{
     color: #4c7273;
     text-align: left;
@@ -65,6 +72,6 @@ a:hover{
     color:#4c7273;
 }
 img{
-    text-align: center;
-    vertical-align: middle;
+    margin: auto;
+    display: block;
 }
