@@ -2,7 +2,6 @@
     background-color: #041421;
     color: #ffffff;
     text-align: center;
-    padding-top: 10px;
 }
 .dropdown-menu{
     border-radius: 0;
@@ -10,12 +9,12 @@
 }
 .blank{
     background-color: #86b9b0;
-    padding: 3px 20px;
+    padding: 6px 30px;
     border: none;
     border-radius: 0;
 }
 .main{
-    padding: 50px 20%;
+    padding: 40px 20%;
     background-color: #86b9b0;
     color: #ffffff;
 }
@@ -45,8 +44,19 @@
 .emphasized-heading{
     color: #86b9b0;
     font-weight: bold;
-    margin: 20px;
+    padding: 20px;
+    font-size:46px;
+}
+.home-button{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+a:hover{
+    color:#4c7273;
 }
 img{
     text-align: center;
+    vertical-align: middle;
 }
