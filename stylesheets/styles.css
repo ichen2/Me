@@ -9,7 +9,6 @@
     left: 50%;
     transform: translate(-50%, -60%);
     z-index: 1021;
-    -webkit-transform: translate3d(0,0,0);
 }
 .card {
     background-color: #fff6d1;
