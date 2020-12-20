@@ -1,77 +1,58 @@
-.overhead{
-    background-color: #041421;
-    color: #ffffff;
+.overhead {
+    background-color: #a8d0e6;
     text-align: center;
 }
-.dropdown-menu{
-    border-radius: 0;
-    color:  #041421;
-}
-.blank{
-    background-color: #86b9b0;
-    padding: 6px 30px;
-    border: none;
-    border-radius: 0;
-}
-.main{
-    padding: 40px 20%;
-    background-color: #86b9b0;
-    color: #ffffff;
-}
-@media screen and (max-width: 48em){
-    .main{
-        padding: 40px 5%;
-        background-color: #86b9b0;
-        color: #ffffff;
-    }
-}
-.heading{
-    color: #4c7273;
-    text-align: left;
-}
-.paragraph{
-    color:#ffff;
-    text-align: left;
-    font-size: 20px;
-}
-.info{
-    text-align: center;
-}
-@media screen and (max-width: 48em){
-    .info{
-        text-align: left;
-    }
-}
-.big-img{
-    height: 200px;
-}
-@media screen and (max-width: 48em){
-    .big-img{
-        height: 120px;
-    }
-}
-.info-heading{
-    color: #4c7273;
-}
-.info-paragraph{
-    font-size: 20px;
-}
-.emphasized-heading{
-    color: #86b9b0;
-    font-weight: bold;
-    padding: 20px;
-    font-size:46px;
-}
-.home-button{
+.profile-image {
+    width:30vw;
+    max-width: 200px;
     position: absolute;
-    top: 10px;
-    left: 20px;
-    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: 1021;
 }
-a:hover{
-    color:#4c7273;
+.card {
+    background-color: #fff6d1;
+    border: none;
 }
-img{
-    margin: auto;
-    display: block;
+.icon-image {
+    width: 25%;
+    max-width:64px;
+}
+#my-name {
+    font-size: 6vw;
+    margin-bottom: -1.1vw;
+    padding: 0;
+}
+@media (min-width: 1200px) {
+    #my-name {
+        font-size: 75px;
+        margin-bottom: -14px;
+    }
+}
+.main-content {
+    padding-top: 100px;
+}
+.light-blue {
+    color: #a8d0e6;
+}
+.black {
+    color:#000000;
+}
+.tan {
+    color: #fff6d1;
+}
+.white {
+    color: #ffffff;
+}
+.light-blue-background {
+    background-color: #a8d0e6;
+}
+.black-background {
+    background-color:#000000;
+}
+.tan-background {
+    background-color: #fff6d1;
+}
+.white-background {
+    background-color: #ffffff;
 }
