@@ -30,6 +30,9 @@
         margin-bottom: -14px;
     }
 }
+.icon:hover {
+    box-shadow: 20px 20px 40px  #a8d0e6;
+}
 .main-content {
     padding-top: 100px;
 }
