@@ -8,7 +8,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -60%);
-    z-index: 1021;
+    z-index: 9999;
 }
 .card {
     background-color: #fff6d1;
