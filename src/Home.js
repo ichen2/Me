@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className='page'>
       <div style={{ padding: 0, flex: 1, display: "flex", flexDirection: "column" }}>
-        <div style={{ height: 32 }} />
+        <div className="big-screens-only" style={{ height: 32 }} />
         <div style={{ height: 4, backgroundColor: "black" }} />
         <h1 style={{ padding: 8, textAlign: "center" }}>Ian Chen</h1>
         <h1 style={{ backgroundColor: "black", color: "white", padding: "24px 8px", textAlign: "center", fontSize: "40px" }}>
@@ -46,10 +46,12 @@ export default function Home() {
           <div style={{ flex: 1, maxWidth: 64 }} />
         </div>
         <div style={{ flex: 1, minWidth: 32, minHeight: 32 }} />
-        <div style={{ height: 4, backgroundColor: "black" }} />
-        <div style={{ height: 32, display: "flex", alignItems: "center" }}>
-          <div style={{ flex: 1 }} />
-          <h4 style={{ margin: 0, padding: 0 }}>0</h4>
+        <div className="big-screens-only" style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ height: 4, backgroundColor: "black" }} />
+          <div style={{ height: 32, display: "flex", alignItems: "center" }}>
+            <div style={{ flex: 1 }} />
+            <h4 style={{ margin: 0, padding: 0 }}>0</h4>
+          </div>
         </div>
       </div>
     </div>

@@ -97,6 +97,10 @@ a {
 }
 
 @media only screen and (max-width: 800px) {
+  .big-screens-only {
+    display: none !important;
+  }
+
   .work-panel-container {
     flex-direction: column;
   }
@@ -115,6 +119,10 @@ a {
 }
 
 @media only screen and (min-width: 801px) {
+  .small-screens-only {
+    display: none !important;
+  }
+
   .work-panel-container {
     flex-direction: row;
     position: absolute;

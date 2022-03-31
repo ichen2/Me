@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <div className='page'>
       <div style={{ padding: 0, flex: 1, display: "flex", flexDirection: "column" }}>
-        <div style={{ height: 32 }} />
+        <div className="big-screens-only" style={{ height: 32 }} />
         <div style={{ height: 4, backgroundColor: "black" }} />
         <div style={{ position: "relative", zIndex: 0, display: "flex", flexDirection: "column" }}>
           <div className="title-header" style={{ display: "flex", alignItems: "flex-end" }}>
@@ -65,10 +65,12 @@ export default function Projects() {
           </div>
         </div>
         <div style={{ flex: 1, minWidth: 32, minHeight: 32 }} />
-        <div style={{ height: 4, backgroundColor: "black" }} />
-        <div style={{ height: 32, display: "flex", alignItems: "center" }}>
-          <div style={{ flex: 1 }} />
-          <h4 style={{ margin: 0, padding: 0 }}>2</h4>
+        <div className="big-screens-only" style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ height: 4, backgroundColor: "black" }} />
+          <div style={{ height: 32, display: "flex", alignItems: "center" }}>
+            <div style={{ flex: 1 }} />
+            <h4 style={{ margin: 0, padding: 0 }}>2</h4>
+          </div>
         </div>
       </div>
     </div>

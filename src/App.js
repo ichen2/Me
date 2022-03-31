@@ -3,7 +3,7 @@ import Home from './Home'
 import Work from './Work'
 import Projects from "./Projects"
 import About from "./About"
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Routes, Route, Link } from "react-router-dom";
 import ArrowKeysReact from 'arrow-keys-react';
 
