@@ -10,23 +10,8 @@ import ArrowKeysReact from 'arrow-keys-react';
 
 export default function App() {
 
-  ArrowKeysReact.config({
-    left: () => {
-      console.log('left key detected.');
-    },
-    right: () => {
-      console.log('right key detected.');
-    },
-    up: () => {
-      console.log('up key detected.');
-    },
-    down: () => {
-      console.log('down key detected.');
-    }
-  });
-
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div id="main" {...ArrowKeysReact.events} tabIndex={1}>
         <div style={{ flex: 1 }} />
         <Routes>
@@ -37,6 +22,6 @@ export default function App() {
         </Routes>
         <div style={{ flex: 1 }} />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
